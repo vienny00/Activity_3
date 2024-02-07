@@ -11,8 +11,17 @@
     <input type="text" placeholder="username">
     <input type="text" placeholder="password">
     <div style="margin-top: 1rem;">
+        <button id="buttonLogin" onclick="aler('Login has been Clicked.')">Login</button>
 
     </div>
-</div>
-    </body>
+    </div>
+   </body>
+   <script>
+    // dito papasok 
+    alert("Hello world!");
+    let btnLogin = document.querySelector("#buttonLogin");
+    btnLogin.onclick = function (){
+        alert('Login has been clicked.')
+    };
+</script>
 </html>
